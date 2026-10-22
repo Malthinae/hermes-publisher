@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Hermes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="sub">Hermes desktop application · last updated 22 October 2026</p>
+
+  <p>This policy covers the Hermes desktop application (the "app"), a personal publishing
+  tool that renders short vertical videos and uploads them to its operator's own TikTok
+  account through the official TikTok Content Posting API.</p>
+
+  <h2>Who this covers</h2>
+  <p>The app has exactly one user: the owner of the computer it runs on and of the TikTok
+  account it is authorised for. It is not a service offered to the public, it has no
+  sign-up, and it collects nothing from anyone else.</p>
+
+  <h2>What data the app handles</h2>
+  <ul>
+    <li>TikTok authorisation data: an access token and a rotating refresh token, plus the
+    basic profile fields returned by <code>user.info.basic</code> (open ID, display name,
+    avatar URL) for the single authorised account.</li>
+    <li>Content created by the app: video files, scripts, voice-over audio, captions and
+    thumbnails, all produced locally from the operator's own inputs.</li>
+    <li>Publish results returned by TikTok: video IDs, publish status and error messages,
+    stored so failed uploads can be retried.</li>
+  </ul>
+
+  <h2>Where the data goes</h2>
+  <p>Tokens and configuration are stored on the operator's own computer, in the app's local
+  environment file inside the operator's user profile. Videos and publish records stay on
+  the same machine. The only network destination is TikTok's official API, over HTTPS,
+  plus optional read-only public endpoints used to research topics.</p>
+  <p>The app does not sell data, does not share it with advertisers or analytics providers,
+  contains no tracking SDKs, and does not read any other account's data.</p>
+
+  <h2>Retention</h2>
+  <p>Tokens are kept until they are revoked or the app is uninstalled. Videos, captions and
+  publish records are kept until the operator deletes them.</p>
+
+  <h2>Revoking access and deleting data</h2>
+  <p>Access can be revoked at any time from TikTok: <em>Settings and privacy → Security and
+  permissions → Manage app permissions</em>. Revoking access invalidates the tokens
+  immediately. Local data is removed by deleting the app's folder from the computer.</p>
+
+  <h2>Children</h2>
+  <p>The app is not directed at children and is not offered to any other person.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the revised version replaces this page.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:henrikthompson475@gmail.com">henrikthompson475@gmail.com</a></p>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </nav>
+</main>
+</body>
+</html>
